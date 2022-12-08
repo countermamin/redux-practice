@@ -33,6 +33,7 @@ const Component = ({ count, add, subtract }) => {
 			<h1>Count = {count}</h1>
 			<button onClick={add}>Add</button>
 			<button onClick={subtract}>Subtract</button>
+			<p>Test</p>
 		</>
 	);
 };
